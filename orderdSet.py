@@ -38,4 +38,3 @@ class OrderedSet(MutableSet, Sequence):
         self.dict.pop(key, None) # None handles key error
 
 
-words = OrderedSet(['hello', 'hello', 'how', 'are', 'you'])
